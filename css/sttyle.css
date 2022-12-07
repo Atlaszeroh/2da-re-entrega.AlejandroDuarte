@@ -10,6 +10,9 @@ a{
     color: #0D7377;
     text-decoration: none;
 }
+p{
+    color: #F0F5F9;
+}
 /* -------header----------- */
 header{
     background-color:#212121;
@@ -129,4 +132,22 @@ footer ul{
 footer div ul li{
     text-align: center;
     color:#F0F5F9;
+}
+/* -----caja-contacto------- */
+.caja-contacto{
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+}
+@media(min-width:1200px){
+    .caja-contacto{
+        text-align: left;
+        padding-left: 30px;
+    }
+    h3,h4{
+        text-align: left;
+    }
 }
